@@ -21,7 +21,7 @@ function createHeart(container) {
     heart.className = "heart";
     heart.style.left = Math.random() * 100 + "%";
     const heartImage = document.createElement("img");
-    heartImage.src = "coracao.png"; // Substitua 'coracao.png' pela imagem do coração
+    heartImage.src = "coracao.png"; 
     heart.appendChild(heartImage);
     container.appendChild(heart);
 
